@@ -9,7 +9,6 @@ def solve1(input):
     for seat in input:
         row, col = findPosition(seat, 0, 127, 0, 7)
         highest = max(highest, row*8+col)
-        # print(row, col)
     print(highest)
 
 def solve2(input):
